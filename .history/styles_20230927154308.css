@@ -25,9 +25,9 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* .myCourse > img{
+.myCourse > img{
   height: 300px;
-} */
+}
 .name-website {
   color: #ffc107;
 }
@@ -61,36 +61,3 @@
   color: rgb(244, 13, 13);
 }
 
-.cascading-right {
-  margin-right: -50px;
-}
-
-@media (max-width: 991.98px) {
-  .cascading-right {
-      margin-right: 0;
-  }
-}
-.bg-login-custom {
-  background-image: url('assets/images/login.webp');
-  height: 300px;
-}
-.card-login-custom{
-  margin-top: -100px;
-  background: hsla(0, 0%, 100%, 0.8); 
-  backdrop-filter: blur(30px);
-}
-
-.rounded-t-5 {
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-}
-
-@media (min-width: 992px) {
-  .rounded-tr-lg-0 {
-    border-top-right-radius: 0;
-  }
-
-  .rounded-bl-lg-5 {
-    border-bottom-left-radius: 0.5rem;
-  }
-}
